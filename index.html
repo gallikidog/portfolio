@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentino Galli / KidOGzz - Portfolio</title>
+  <meta name="description" content="Portfolio de Valentino Galli / KidOGzz, programador freelancer especializado en plugins Minecraft, herramientas Windows y automatizaciones.">
+  <meta property="og:title" content="Valentino Galli / KidOGzz - Portfolio">
+  <meta property="og:description" content="Plugins Java para Minecraft, herramientas C# para Windows y automatizaciones Python.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/avatar.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <img src="assets/avatar.png" alt="Foto de perfil de Valentino Galli">
+      <span>KidOGzz</span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-links" aria-label="Navegacion principal">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#tecnologias">Tecnologias</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Programador freelancer desde Argentina</p>
+        <h1>Valentino Galli crea sistemas jugables, herramientas de escritorio y automatizaciones con foco real en uso.</h1>
+        <p class="lead">Desarrollador conocido como KidOGzz, con proyectos publicos en Java, C# y Python. Su trabajo combina plugins avanzados para servidores Minecraft, utilidades para Windows y software configurable para usuarios finales.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyectos">Ver proyectos</a>
+          <a class="button secondary" href="https://github.com/gallikidog" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <aside class="profile-panel" aria-label="Resumen de perfil">
+        <img src="assets/avatar.png" alt="Valentino Galli / KidOGzz">
+        <div>
+          <h2>Valentino Galli / KidOGzz</h2>
+          <p>Programador Freelancer en Savage</p>
+        </div>
+        <dl>
+          <div><dt>Ubicacion</dt><dd>Argentina</dd></div>
+          <div><dt>Repos publicos</dt><dd>5</dd></div>
+          <div><dt>Stack visible</dt><dd>Java, C#, Python</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="stats-band" aria-label="Indicadores">
+      <div><strong>2026</strong><span>Perfil activo en GitHub</span></div>
+      <div><strong>3</strong><span>Areas principales</span></div>
+      <div><strong>Java 21</strong><span>Plugins Paper modernos</span></div>
+      <div><strong>.NET 8</strong><span>Herramientas Windows</span></div>
+    </section>
+
+    <section class="section intro-section">
+      <div class="section-heading">
+        <p class="eyebrow">Perfil profesional</p>
+        <h2>Un desarrollador orientado a producto, no solo a codigo.</h2>
+      </div>
+      <div class="intro-grid">
+        <p>Valentino muestra una base fuerte en servidores Minecraft competitivos: sistemas HCF, staff tools, duelos, KOTHs, scoreboards, GUIs, permisos e integraciones con el ecosistema Paper/Spigot.</p>
+        <p>Tambien trabaja en aplicaciones de escritorio para Windows, con configuracion visual, perfiles persistentes, instaladores y soporte bilingue, una senal clara de cuidado por la experiencia final.</p>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="section-heading">
+        <p class="eyebrow">Mejores repositorios</p>
+        <h2>Proyectos destacados</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="tag">Java</span>
+            <span class="meta">Paper 1.21.1</span>
+          </div>
+          <h3>SpazioDuels</h3>
+          <p>Plugin modular para duelos, torneos, KOTHs, scoreboards dinamicas, emulacion PvP 1.8.9, integracion con PlayerKits2 y proteccion anti-dupe.</p>
+          <ul>
+            <li>Duelos 1v1, equipos y handicap con GUI de kits.</li>
+            <li>Eventos automaticos, resumen post-evento y KOTH programable.</li>
+            <li>Restauracion de inventarios con respaldo en disco.</li>
+          </ul>
+          <a href="https://github.com/gallikidog/spazio-duels" target="_blank" rel="noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="tag">C#</span>
+            <span class="meta">.NET 8</span>
+          </div>
+          <h3>SavagePadEmulator</h3>
+          <p>Emulador DirectInput a Xbox 360 para Windows 11 con perfiles JSON, calibracion, deteccion de drift, hot-plug y empaquetado portable/instalador.</p>
+          <ul>
+            <li>Mapeo visual de botones, sticks, gatillos y D-Pad.</li>
+            <li>Perfiles por juego y cambio automatico.</li>
+            <li>Interfaz en espanol e ingles.</li>
+          </ul>
+          <a href="https://github.com/gallikidog/SavagePadEmulator" target="_blank" rel="noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="tag">Java</span>
+            <span class="meta">Spigot / Paper</span>
+          </div>
+          <h3>SpazioStaff</h3>
+          <p>Sistema de staff para servidores Minecraft con staff mode, vanish, freeze, command spy, inspeccion de inventario, stats GUI y scoreboard exclusiva.</p>
+          <ul>
+            <li>Herramientas de supervision en tiempo real.</li>
+            <li>Hotbar administrativa configurable.</li>
+            <li>Integracion con LuckPerms y PlaceholderAPI.</li>
+          </ul>
+          <a href="https://github.com/gallikidog/spaziostaff" target="_blank" rel="noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="tag">Java</span>
+            <span class="meta">HCF 1.8.8</span>
+          </div>
+          <h3>ShowCase HCF Core</h3>
+          <p>Muestra de un core monolitico HCF y KitMap con facciones, economia, clases PvP, timers, deathban, nametags, tablist, scoreboards y eventos.</p>
+          <ul>
+            <li>Persistencia hibrida MongoDB, Redis y YAML.</li>
+            <li>Combat logger, DTR, KOTH, SOTW y EOTW.</li>
+            <li>Arquitectura pensada para networks competitivas.</li>
+          </ul>
+          <a href="https://github.com/gallikidog/ShowCase-HCF-Core" target="_blank" rel="noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card compact">
+          <div class="project-top">
+            <span class="tag">Python</span>
+            <span class="meta">Desktop utility</span>
+          </div>
+          <h3>ogautoclicker</h3>
+          <p>Autoclicker para Minecraft con paneles independientes para click izquierdo/derecho, hotkeys globales, modo hold click e interfaz bilingue.</p>
+          <a href="https://github.com/gallikidog/ogautoclicker" target="_blank" rel="noreferrer">Ver repositorio</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section tech-section" id="tecnologias">
+      <div class="section-heading">
+        <p class="eyebrow">Tecnologias</p>
+        <h2>Stack observado en GitHub</h2>
+      </div>
+      <div class="tech-grid">
+        <span>Java</span>
+        <span>Paper / Spigot</span>
+        <span>Maven</span>
+        <span>C#</span>
+        <span>.NET 8</span>
+        <span>Windows Forms</span>
+        <span>Python</span>
+        <span>PowerShell</span>
+        <span>Inno Setup</span>
+        <span>MongoDB</span>
+        <span>Redis</span>
+        <span>YAML / JSON</span>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experiencia">
+      <div class="section-heading">
+        <p class="eyebrow">Experiencia</p>
+        <h2>Areas donde puede aportar valor</h2>
+      </div>
+      <div class="experience-list">
+        <article>
+          <span>01</span>
+          <h3>Plugins para Minecraft competitivo</h3>
+          <p>Desarrollo de sistemas Paper/Spigot con comandos, permisos, GUIs, scoreboards, eventos y configuracion avanzada para redes HCF, KitMap, Practice y Staff.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Aplicaciones Windows</h3>
+          <p>Construccion de herramientas de escritorio con perfiles, instaladores, diagnostico, soporte multiidioma y logica orientada al uso cotidiano.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Automatizacion y utilidades</h3>
+          <p>Scripts y aplicaciones pequenas para resolver tareas repetitivas, capturar entradas globales, gestionar configuraciones y crear flujos mas rapidos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>Disponible para proyectos freelance y colaboraciones.</h2>
+        <p>Para ver codigo, actividad y repositorios actualizados, el mejor punto de contacto publico es su perfil de GitHub.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="button primary" href="https://github.com/gallikidog" target="_blank" rel="noreferrer">Abrir GitHub</a>
+        <a class="button secondary" href="https://github.com/gallikidog?tab=repositories" target="_blank" rel="noreferrer">Ver repos</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Portfolio basado en informacion publica de GitHub consultada el 3 de agosto de 2026.</p>
+    <a href="#inicio">Volver arriba</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
