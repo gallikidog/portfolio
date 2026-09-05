@@ -2,7 +2,7 @@
 
 Sitio web estatico, moderno y responsive basado en el perfil publico de GitHub `gallikidog`.
 
-Actualizado el 7 de agosto de 2026 para reflejar 8 repositorios publicos, incluyendo `FlameCord-CustomFork`, `Showcase-HubCore-OldStyle` y `portfolio`.
+Actualizado el 5 de septiembre de 2026 para reflejar 10 repositorios publicos e incorporar el proyecto Infinix.
 
 ## Ejecutar localmente
 
@@ -40,9 +40,12 @@ Luego abrir `http://localhost:8080`.
 
 ## Fuente de datos
 
-Informacion publica consultada desde GitHub el 7 de agosto de 2026:
+Informacion consultada desde GitHub el 5 de septiembre de 2026:
 
 - https://github.com/gallikidog
+- https://github.com/gallikidog/Infinix-Core-Advanced-minecraft-management-core-for-spigot-and-bungee-
+- https://github.com/gallikidog/infinix
+- https://github.com/gallikidog/survival-core
 - https://github.com/gallikidog/FlameCord-CustomFork
 - https://github.com/gallikidog/Showcase-HubCore-OldStyle
 - https://github.com/gallikidog/portfolio
